@@ -1,0 +1,6 @@
+language: java
+jdk:
+  - oraclejdk7
+script: "mvn clean deploy --settings settings.xml"
+notifications:
+  email: true
